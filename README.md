@@ -1,4 +1,4 @@
-# DSA-Visualizer
+# DSA-Visualizer KIRTI 
 
 ## Command to compile costun-collection classes
 - mvn test-compile
