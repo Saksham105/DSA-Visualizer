@@ -6,8 +6,8 @@ const STRUCTURES = [
   { id: 'linkedlist', label: 'Linked List', number: 2, ready: true },
   { id: 'stack', label: 'Stack', number: 3, ready: true },
   { id: 'queue', label: 'Queue', number: 4, ready: true },
-  { id: 'hashset', label: 'Set', number: 5, ready: true },
-  { id: 'treemap', label: 'Map', number: 6, ready: true },
+  { id: 'hashset', label: 'Hashing', number: 5, ready: true },
+  { id: 'treemap', label: 'Tree', number: 6, ready: true },
 ]
 
 export default function Home({ onSelect }) {
