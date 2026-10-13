@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dsa.dsa_backend.dto.ExecutionRequest;
 import com.dsa.dsa_backend.dto.ExecutionResponse;
 import com.dsa.dsa_backend.dto.Operation;
-import com.dsa.dsa_backend.engine.ExecutionTrace;
-import com.dsa.dsa_backend.engine.StepRecorder;
-import com.dsa.dsa_backend.traced.TracedJArrayList;
+import com.dsa.dsa_backend.model.ExecutionTrace;
+import com.dsa.dsa_backend.model.StepRecorder;
+import com.dsa.dsa_backend.service.TracedJArrayList;
 
 @RestController
 @RequestMapping("/api/arraylist")

@@ -33,7 +33,7 @@ export default function TreeCanvas({ step, colorToken }) {
             <motion.line
               key={i}
               initial={false}
-              animate={{ x1: e.x1, y1: e.y1 + NODE / 2, x2: e.x2, y2: e.y2 - NODE / 2 }}
+              animate={{ x1: e.x1, y1: e.y1 + NODE / 4, x2: e.x2, y2: e.y2 - NODE / 4 }}
               transition={MOVE}
               stroke={lit ? colors : '#3A4557'}
               strokeWidth={lit ? 3 : 1.75}

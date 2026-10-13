@@ -1,4 +1,4 @@
-package com.dsa.dsa_backend.engine;
+package com.dsa.dsa_backend.model;
 
 public enum StepType {
     // CRUD

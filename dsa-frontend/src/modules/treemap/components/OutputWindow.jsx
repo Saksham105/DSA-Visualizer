@@ -26,12 +26,12 @@ export default function OutputWindow({ step }) {
         {step ? (
           <>
             <span
-              className={`rounded px-1.5 py-0.5 font-mono text-[11px] font-bold tracking-wide
+              className={`rounded px-1.5 py-0.5 font-mono text-[30px] font-bold tracking-wide
                 ${style.ring ? BADGE_TEXT_CLASSES[style.color] : 'text-mist-300'}`}
             >
               {getStepStyle(step.stepType).badge}
             </span>
-            <span className="truncate font-mono text-xs text-mist-300">{step.description}</span>
+            <span className="truncate font-mono text-xl text-mist-300">{step.description}</span>
           </>
         ) : (
           <span className="font-mono text-xs text-mist-400">awaiting execution…</span>

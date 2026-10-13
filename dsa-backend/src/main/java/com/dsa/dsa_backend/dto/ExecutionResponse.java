@@ -2,8 +2,8 @@ package com.dsa.dsa_backend.dto;
 
 import java.util.List;
 
-import com.dsa.dsa_backend.engine.ExecutionTrace;
-import com.dsa.dsa_backend.engine.Step;
+import com.dsa.dsa_backend.model.ExecutionTrace;
+import com.dsa.dsa_backend.model.Step;
 
 public class ExecutionResponse
 {

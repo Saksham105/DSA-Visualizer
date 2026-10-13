@@ -1,12 +1,12 @@
-package com.dsa.dsa_backend.traced;
+package com.dsa.dsa_backend.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 import com.dsa.collections.linear.JArrayList;
-import com.dsa.dsa_backend.engine.StepRecorder;
-import com.dsa.dsa_backend.engine.StepType;
+import com.dsa.dsa_backend.model.StepRecorder;
+import com.dsa.dsa_backend.model.StepType;
 
 public class TracedJArrayList {
     private final JArrayList<Integer> list;
@@ -319,8 +319,4 @@ public class TracedJArrayList {
         );
         return true;
     }
-
-//    TODO do this on priority basis after completing website.
-//    boolean merge_sort()
-//    boolean quick_sort(
 }

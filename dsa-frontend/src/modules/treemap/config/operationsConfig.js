@@ -4,14 +4,14 @@
 export const treeMapOperations = [
   {
     name: 'insert',
-    label: 'Insert',
+    label: 'Insert Node',
     args: [
       { key: 'key', label: 'Key' },
       { key: 'value', label: 'Value', type: 'text', placeholder: 'text' },
     ],
   },
-  { name: 'delete', label: 'Delete', args: [{ key: 'key', label: 'Key' }] },
-  { name: 'search', label: 'Search', args: [{ key: 'key', label: 'Key' }] },
+  { name: 'delete', label: 'Delete Node', args: [{ key: 'key', label: 'Key' }] },
+  { name: 'search', label: 'Search Node', args: [{ key: 'key', label: 'Key' }] },
 ]
 
 export function findOperation(name) {

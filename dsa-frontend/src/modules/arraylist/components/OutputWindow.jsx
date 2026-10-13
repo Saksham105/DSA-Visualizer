@@ -46,19 +46,19 @@ export default function OutputWindow({ step }) {
         {step ? (
           <>
             <span
-              className={`rounded px-1.5 py-0.5 font-mono text-[11px] font-bold tracking-wide
-                ${style.ring ? BADGE_TEXT_CLASSES[style.color] : 'text-mist-300'}`}
+              className={`rounded px-1.5 py-0.5 font-mono text-[30px] font-bold tracking-wide
+                ${style.ring ? BADGE_TEXT_CLASSES[style.color] : 'text-mist-500'}`}
             >
               {getStepStyle(step.stepType).badge}
             </span>
-            <span className="truncate font-mono text-xs text-mist-300">{step.description}</span>
+            <span className="truncate font-mono text-xl text-mist-500">{step.description}</span>
             {step.helpers && Object.keys(step.helpers).length > 0 && (
               <span className="ml-auto flex flex-shrink-0 gap-2">
                 {Object.entries(step.helpers).map(([key, value]) => (
                   <span
                     key={key}
                     className="rounded border border-graphite-500 bg-graphite-800 px-1.5 py-0.5
-                      font-mono text-[11px] text-mist-300"
+                      font-mono text-[11px] text-mist-500"
                     title={`${key} register`}
                   >
                     {key}: <span className="text-cell-swap">{value}</span>
